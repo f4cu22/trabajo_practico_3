@@ -4,72 +4,121 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bienvenido a mi pagina web!</title>
+	<link rel="stylesheet" href="../static/css/estilos.css">
 </head>
 
 <body>
-	<header>
-		<h1>Pagina web para recomendar musica</h1>
-		<nav>
+	<header id="main-header">
+		<h1>Pagina para recomendar musica</h1>
+		<nav class="nav-menu">
+			<h2>Canciones recomendadas</h2>
 			<ul>
-				<li><a href="https://youtu.be/L_PSnBsQihM">Linkin Park - Best Music | Full Album</a></li>
-				<li><a href="https://youtu.be/k3WkJq478To">Synthwave/Electric Mixtape I | For Study/Relax</a></li>
-				<li><a href="https://youtu.be/AgM_Qu2_Jvs">BEST MIXTAPE. Dr Dre, Eminem, Snoop Dogg, 50Cent, Notorious B.IG, NWA .</a></li>
+				<li>
+					<a href="https://youtu.be/L_PSnBsQihM">
+					Linkin Park - Best Music | Full Album
+					</a>
+				</li>
+				<li>
+					<a href="https://youtu.be/k3WkJq478To">
+					Synthwave/Electric Mixtape I | For Study/Relax
+					</a>
+				</li>
+				<li>
+					<a href="https://youtu.be/AgM_Qu2_Jvs">
+					BEST MIXTAPE. Dr Dre, Eminem, Snoop Dogg, 50Cent, Notorious B.IG, NWA .
+					</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
-	<main>
+	<main class="main-content">
 		<section id="seccion1">
 			<h2>Canciones populares</h2>
 			<p>Descubre las canciones mas pululares del momento en Argentina</p>
 			<ol>
-				<li><a href="https://youtu.be/9hxzmqpnGb0">BESAME REMIX - BHAVI, SEVEN KAYNE, MILO J, TIAGO PZK, KHEA, NEO PISTEA</a></li>
-				<li><a href="https://youtu.be/6O5Wyo6qxrM">Ke Personajes / Que Poco</a></li>
-				<li><a href="https://youtu.be/dwOPEnDv9Mw">FMK, Omar Montes, Ana Mena, LIT killah, Rusherking, Mesita - CAMIONETOTA</a></li>
+				<li><a href="https://youtu.be/9hxzmqpnGb0">
+					BESAME REMIX - BHAVI, SEVEN KAYNE, MILO J, TIAGO PZK, KHEA, NEO PISTEA
+					</a>
+					<img src="../static/image/besame_remix.jpg" alt="BESAME REMIX">
+				</li>
+				
+				<li>
+					<a href="https://youtu.be/6O5Wyo6qxrM">
+					Ke Personajes / Que Poco
+					</a>
+					<img src="../static/image/ke_personaje.jpg" alt="Ke Personajes">
+				</li>
+				
+				<li>
+					<a href="https://youtu.be/dwOPEnDv9Mw">
+					FMK, Omar Montes, Ana Mena, LIT killah, Rusherking, Mesita - CAMIONETOTA
+					</a>
+					<img src="../static/image/camionetota.jpg" alt="CAMIONETOTA">
+				</li>
 			</ol>
 		</section>	
 		
-		<section id="seccion2">
+		<section id="seccion2" class="content-section">
 			<h2>Generos Musicales</h2>
 			<h3>Rock</h3>
-			<p>Informacion sobre el genero rock</p>
+			<p>El rock es un género musical que se originó en la década de 1950 en Estados Unidos y el Reino
+			Unido. Se caracteriza por el uso de instrumentos eléctricos como la guitarra eléctrica, el bajo 
+			eléctrico y la batería. El rock abarca una amplia variedad de estilos, incluyendo el rock and roll, el 
+			rock clásico, el rock alternativo, el punk rock, el hard rock, entre otros. Es conocido por sus 
+			ritmos enérgicos, letras a menudo rebeldes o sociales, y su influencia cultural duradera.
+			</p>
 			<h3>Pop</h3>
-			<p>Informacion sobre el genero pop</p>
+			<p>El pop, abreviatura de "popular", es un género musical que se centra en la melodía y la
+			accesibilidad. Surgió en la década de 1950 como una evolución del rock and roll y otros estilos 
+			musicales. El pop se caracteriza por su estructura de canción simple, ritmo pegadizo y letras 
+			generalmente enfocadas en temas de amor, relaciones y experiencias de la vida cotidiana. Es 
+			uno de los géneros más comerciales y populares en la industria musical.
+			</p>
 			<h3>Electronica</h3>
-			<p>Informacion sobre el genero de electronica</p>
+			<p>La música electrónica es un género musical que utiliza tecnología electrónica y digital en su 
+			producción y presentación. Surgió en la década de 1960 con el desarrollo de sintetizadores y
+			otros equipos electrónicos. La música electrónica abarca una amplia variedad de estilos, 
+			incluyendo el techno, house, trance, drum and bass, dubstep, entre otros. Se caracteriza por su 
+			uso de ritmos repetitivos, sonidos sintéticos y estructuras de canciones no convencionales. La 
+			música electrónica ha tenido un gran impacto en la cultura contemporánea y es popular en
+			clubes, festivales y fiestas en todo el mundo.
+			</p>
 		</section>
 		
-		<section id="seccion3">
+		<section id="seccion3" class="content-section">
 			<h2>Artistas recomendados</h2>
 			<table>
 				<tr>
-					<th>Linkin park</th>
-					<th>Album: Tybrid Theory</th>
+					<th>Artista: Linkin park </th>
+					<th> - </th>
+					<th> Album: Tybrid Theory</th>
 				</tr>		
 				<tr>
-					<th>Disturbed</th>
-					<th>Album: Indestructible</th>
+					<th>Artista: Disturbed </th>
+					<th> - </th>
+					<th> Album: Indestructible</th>
 				</tr>
 				<tr>
-					<th>Artista:3AM</th>
-					<th>Album:-</th>
+					<th>Artista: 3AM </th>
+					<th> - </th>
+					<th> Album: Rain City</th>
 				</tr>		
 			</table>
 		</section>
 	</main>
 	
-	<aside>
+	<aside class="additional-content">
 		<h2>Contenido adicional</h2>
 		<p>Enlaces y recursos adicionales relacionados con la musica.</p>
-		<ul>
+		<ul class="section-list">
 			<li><a href="">Sitio web de noticias musicales</a></li>
 			<li><a href="">Blog de reseñas de música</a></li>
 			<li><a href="">Foro de discusión sobre música</a></li>
 		</ul>
-		<img alt="../static/images" src="Imagen">
 	</aside>
 	
 	<footer>
-		<p>Contacto: facu@gmail.com</p>
+		<p>Contacto: f4cus22@music.com</p>
 		<p>Redes sociales:
 		<a href="#">Facebook</a>
 		</p>
